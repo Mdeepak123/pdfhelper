@@ -47,13 +47,12 @@ if "chat-engine" not in st.session_state.keys():
 
 st.set_page_config(
     page_title="Chat with Your PDF",
-    page_icon="🦙",
     layout="centered",
     initial_sidebar_state="auto",
     menu_items=None,
 )
 
-st.title("Chat with Your PDF 💬🦙")
+st.title("Chat with Your PDF 💬")
 
 #adding the past messages in a session state
 
